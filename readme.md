@@ -22,7 +22,7 @@
 
 ### Create                  
 - 테이블 생성            
-create table 테이블이름 (     
+create table 테이블이름(     
     칼럼명 데이터타입 조건,       
     칼럼명 데이터타입 조건,       
     ...     
