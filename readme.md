@@ -37,3 +37,4 @@ create table customer(
     address     char(25),       
     salary      decimal(18,2)           
 );      
+
