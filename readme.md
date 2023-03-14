@@ -60,4 +60,7 @@ create table customer(
 - 사용자 권한 부여         
 > ex) 모든 데이터베이스의 모든 테이블에 권한 부여        
 > GRANT ALL privileges on *.* '사용자'@'host';
-
+> ex) 특정 데이터베이스의 모든 테이블에 권한 부여      
+> GRANT ALL privileges on DB명.* '사용자'@'host';          
+> ex) 특정 데이터베이스의 특정 테이블에 권한 부여      
+> GRANT ALL privileges on DB명.테이블명 '사용자'@'host';        
