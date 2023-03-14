@@ -38,6 +38,8 @@ create table customer(
     salary      decimal(18,2)           
 );      
 
+--------
+
 ### 사용자 
 - 사용자 조회    
 > use mysql;    
@@ -45,7 +47,6 @@ create table customer(
 
 - 사용자 생성    
 > CREATE user '사용자'@'host' identified by '비밀번호';    
->
 ex) 내부접근을 허용하는 사용자 추가      
 > CREATE user 'test'@'localhost' identified by '1234';      
 ex) 외부접근을 허용하는 사용자 추가       
